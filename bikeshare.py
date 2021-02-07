@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks users to specify a city, month, and day to analyze.
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -131,7 +131,7 @@ def trip_duration_stats(df):
     total_duration = df['Trip Duration'].sum()
     print("Total travel time is ",total_duration)
 
-    # TO DO: display mean travel time
+    # TO DO: display average travel time
     average_trip_duration = df["Trip Duration"].mean()
     print('Average travel time is ',average_trip_duration)
 
