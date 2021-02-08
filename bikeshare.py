@@ -146,7 +146,7 @@ def user_stats(df):
     start_time = time.time()
 
    # TO DO: Display counts of user types
-    print("Here are the counts of various user types:")
+    print("Here are the counts for different user types:")
     user_types = df['User Type'].value_counts()
     print(user_types)
 
@@ -155,7 +155,7 @@ def user_stats(df):
         Gender_count = df['Gender'].value_counts()
         print(Gender_count)
     else:
-        print("No Gender information in this city.")
+        print("There is No Gender information in this city.")
 
 
     # TO DO: Display earliest, most recent, and most common year of birth
