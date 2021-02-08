@@ -1,5 +1,5 @@
 ### Date created
-18/01/2021 and Updated 07/02/2020
+18/01/2021 and Updated 08/02/2020:10:14
 
 
 ### Project Title
@@ -16,3 +16,5 @@ bikeshare.py
 https://knowledge.udacity.com/questions/188683
 
 https://www.atlassian.com/git/tutorials/saving-changes/gitignore#shared
+
+https://udacity.github.io/git-styleguide/
